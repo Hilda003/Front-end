@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartridge Kings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="logo.png" alt="Cartridge Kings Logo">
+                <h1>CARTRIDGE KINGS</h1>
+            </div>
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" placeholder="SEARCH" class="search-input">
+                    <button class="search-button">&#128269;</button>
+                </div>
+                <div class="cart-container">
+                    <button class="cart-button">CART <span class="cart-count">(1)</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Ink Cartridges</a></li>
+                    <li><a href="#">Toner Cartridges</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Login / Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>FIND THE RIGHT CARTRIDGES FOR YOUR PRINTER</h2>
+            <div class="search-box">
+                <div class="search-tabs">
+                    <button class="tab active">3-Step Easy Search®</button>
+                    <button class="tab">Search by Serial Number</button>
+                </div>
+                <div class="search-fields">
+                    <select id="printer-brand">
+                        <option value="">1. Printer Brand</option>
+                    </select>
+                    <select id="printer-series">
+                        <option value="">2. Printer Series</option>
+                    </select>
+                    <select id="printer-model">
+                        <option value="">3. Printer Model</option>
+                    </select>
+                    <button id="find-cartridges">FIND CARTRIDGES</button>
+                </div>
+            </div>
+        </section>
+        <section class="featured-products">
+            <h3>Featured Products</h3>
+            <div class="product">
+                <img src="asset/hp26.png" alt="HP 62 Black Ink Cartridge">
+                <p class="product-name">HP 62 Black Ink Cartridge</p>
+                <p class="product-id">(HPC2P04AE)</p>
+                <div class="price-cart">
+                    <p class="product-price">$9.49</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="asset/hp26.png" alt="Canon MF-3110 Toner">
+                <p class="product-name">Canon MF-3110 Toner</p>
+                <p class="product-id">(C2P04AE)</p>
+                <div class="price-cart">
+                    <p class="product-price">$36.45</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="asset/hp26.png" alt="HP 62 Black Ink Cartridge">
+                <p class="product-name">HP 62 Black Ink Cartridge</p>
+                <p class="product-id">(HPC2P04AE)</p>
+                
+                <div class="price-cart">
+                
+                    <p class="new-price">$5.99</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="arrows">
+                <button class="arrow-left">&#9664;</button>
+                <button class="arrow-right">&#9654;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Franchise Opportunities | Help | Feedback</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
